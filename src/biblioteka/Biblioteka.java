@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 import biblioteka.interfejs.BibliotekaInterface;
 
+
 public class Biblioteka implements BibliotekaInterface {
 
 	private LinkedList<Knjiga> knjige = new LinkedList<Knjiga>();
@@ -11,7 +12,7 @@ public class Biblioteka implements BibliotekaInterface {
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
 		
-
+// nepotreban komentar
 		if(knjiga==null)
 			throw new NullPointerException("Knjiga ne sme biti null");
 		if(knjige.contains(knjiga))
