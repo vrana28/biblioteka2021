@@ -19,7 +19,7 @@ public class Biblioteka implements BibliotekaInterface {
 			throw new RuntimeException("Knjiga vec postoji");
 
 
-		
+		// nepotreban komentar 2
 		knjige.add(knjiga);
 
 	}
