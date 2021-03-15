@@ -44,6 +44,7 @@ class AutorTest {
 		
 		
 		a.setIme("Pera");
+
 		assertEquals("Pera", a.getIme());
 	}
 	

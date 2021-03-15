@@ -1,5 +1,6 @@
 package biblioteka;
 
+
 import java.util.LinkedList;
 
 import biblioteka.interfejs.BibliotekaInterface;
