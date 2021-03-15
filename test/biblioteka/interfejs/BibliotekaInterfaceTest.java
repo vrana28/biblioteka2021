@@ -9,10 +9,19 @@ import org.junit.jupiter.api.Test;
 
 import biblioteka.Knjiga;
 
+/**
+ * Interfejs koji predstavlja biblioteku.
+ * 
+ * @author Djordje
+ *
+ */
+
 public abstract class BibliotekaInterfaceTest {
 
 	protected BibliotekaInterface biblioteka;
-	
+	/**
+	 * 
+	 */
 	@Test
 	void testDodajKnjigu() {
 		Knjiga k = new Knjiga();
